@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import react from 'react'
+import Stories from './components/Stories.js'
+import Search from './components/Search.js'
+import Pagination from './components/Pagination.js'
+import "./App.css"
 
-function App() {
+const App=()=> {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div>Welcome to Owais Technical News Website</div>
+<Search/>
+<Pagination/>
+  <Stories/>
+  </>
   );
 }
 
