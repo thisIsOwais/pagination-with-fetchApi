@@ -13,6 +13,8 @@ const initialState = {
 
 const AppContext = React.createContext();
 
+console.log('context ',AppContext)
+
 // to create a provider fucntion
 const AppProvider = ({ children }) => {
   

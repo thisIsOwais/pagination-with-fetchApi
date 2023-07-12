@@ -4,15 +4,15 @@ import Search from './components/Search.js'
 import Pagination from './components/Pagination.js'
 import "./App.css"
 
-const App=()=> {
-  
+const App = () => {
+
   return (
     <>
-    <div>Welcome to Owais Technical News Website</div>
-<Search/>
-<Pagination/>
-  <Stories/>
-  </>
+      <div>Welcome to Owais Technical News Website</div>
+      <Search />
+      <Pagination />
+      <Stories />
+    </>
   );
 }
 
